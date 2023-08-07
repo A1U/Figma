@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="./css/figmatest.css" rel="styleSheet"/> -->
+    <style>
+
+/* @media only screen and (max-width: 700px) { */
+
+    .container{
+    height: 786px;
+    width: 646px;
+    border: 2px solid black;
+    background: #f8faf9;
+}
+/* .bundle{
+    margin-top: 10px;
+} */
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: gray;
+  }
+  .hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    color:  green;
+  }
+
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .border1{
+    margin-top: 0px;
+    height: 100px;
+    width: 390px;
+margin-left: 90px;
+border: 2px solid gray;
+  }
+  #ppp{
+    padding-left: 30px;
+    color:  black;
+  }
+  #sp{
+    padding-left: 160px;
+  }
+  .border2{
+    margin-top: 30px;
+    height: 230px;
+
+    width: 390px;
+margin-left: 90px;
+border: 2px solid green;
+background-color: rgb(215, 232, 218);
+
+  }
+  #pair2{
+    margin-left: 30px;
+  }
+  #ddk{
+    margin-left: 30px;
+    /* margin-top: 2px; */
+  }
+  #redio{
+    margin-top: 2px;
+  }
+  #fff{
+    margin-left: 200px;
+    color: green;
+  }
+  #ggg{
+    margin-left: 40px;
+    margin-top: 4px;
+
+  }
+  #abc{
+    margin-left: 40px;
+    color: gray;
+   }
+
+   #hr-lines{
+      
+  color: gray;
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+     margin-left: 50px;
+
+   }
+   #ggg{
+    color: black;
+    margin-left: 40px;
+   }
+   .column{
+    display: flex;
+    list-style: none;
+    color: black;
+
+     
+   }
+   #box1{
+    height: 30px;
+    width: 90px;
+    margin-left: 20px;
+   }
+   #input2{
+    margin-top: 10px;
+   }
+   .pair3{
+    margin-top: 40px;
+    height: 100px;
+    width: 390px;
+    border: 2px solid gray;
+    border-radius: 2px;
+
+   }
+   #kkk{
+    margin-left: 30px;
+    color: black;
+   }
+   
+   #hhh{
+    margin-left: 190px;
+   }
+  #hh4{
+    color: green;
+  }
+  #total{
+    margin-left: 100px;
+  }
+  #button{
+    height: 50px;
+    width: 390px;
+    background-color:green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+  }
+  #hh6
+{
+  margin-left: 200px;
+  color: black;
+}  
+ 
+
+/* } */
+
+  
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+   
+    <div class="container">
+        <div class="bundle">
+        <h2 class="hr-lines"> Save Bundle </h2>
+        
+        
+        <!-- </div> -->
+        
+        <div class="border1">
+             <h4 id="ppp">1 Pair</h4>
+             <input type="radio" id ="redio">
+             <span id="ppp">DDK 195.00 <span id="sp">50% OFF</span></span>
+
+        </div>
+        <div class="border2">
+            <h4 id="pair2"> 2 Pair<span id="fff">Most Popular</span></h4>
+            <input type="radio" id ="redio">DKK 345.00
+           <span id="hr-lines"> DKK 195.00 </span"><span id="ggg"> 40% OFF</span>
+            <div>
+            <ul class="column">
+                <li>Size</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <li> Color</li>
+                 
+            </ul>
+            <div id="input1">
+            <!-- #1<input type="text" value="S" id ="box1"> -->
+           #1 <select name="size" id="box1" value="S">
+              
+              </select>
+              <select name="size" id="box1">
+              
+              </select>
+        </div>
+    <div id="input2">
+
+         #2<select name="size" id="box1" value="S">
+            <select name="size" id="box1" value="S">
+              
+            </select>
+            <select name="size" id="box1" value="S">
+              
+            </select>
+
+
+              
+            <!-- <input type="text" value="Colour" id="box1"> -->
+        </div>
+        <div class="pair3">
+        <h3 id="kkk">3 Pair<span id="hhh">60% OFF</span></h3>
+    
+        <input type="radio" id="radio"><span ></span id="fff">DKK 528.00</span>
+    </div>
+
+        </div>
+      <h4 id="hh4">Free 2 Day Shipping<span id="total">Total: DKK 360.00</span></h4>
+<button type="nutton" id ="button">+ Add to Card</button>
+<h6 id="hh6">Powered by Pumber</h6>
+            
+        </div>
+    </div>
+        
+        
+
+
+    </div>
+    <script type="javascript/text" src="./js/figmajs.js" ></script>
+</body>
+</html>
